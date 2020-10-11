@@ -1,10 +1,10 @@
-import React from "react";
-import LoginScreen from "./components/LoginScreen";
-import TaskApp from "./TaskApp";
-import RealmApolloProvider from "./graphql/RealmApolloProvider";
-import { useRealmApp, RealmAppProvider } from "./RealmApp";
+import React from 'react';
+import LoginScreen from './components/LoginScreen';
+import TaskApp from './TaskApp';
+import RealmApolloProvider from './graphql/RealmApolloProvider';
+import { useRealmApp, RealmAppProvider } from './RealmApp';
 
-export const APP_ID = "<your Realm app ID here>";
+export const APP_ID = 'gtd-tyffk';
 
 const RequireLoggedInUser = ({ children }) => {
   // Only render children if there is a logged in user.
